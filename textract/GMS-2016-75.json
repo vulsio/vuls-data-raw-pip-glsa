@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GMS-2016-75"
+	],
+	"identifier": "GMS-2016-75",
+	"package_slug": "pypi/textract",
+	"title": "OS command injection",
+	"description": "Parsing a file with a malicious name leads to arbitrary OS command injection, this is especially risky when parsing user-supplied files on a server (e.g. uploaded files).",
+	"date": "2016-10-21",
+	"pubdate": "2016-10-21",
+	"affected_range": "<1.5.0",
+	"fixed_versions": [
+		"1.5.0"
+	],
+	"affected_versions": "All versions before 1.5.0",
+	"not_impacted": "All versions starting from 1.5.0",
+	"credit": "Pierre Ernst",
+	"solution": "Upgrade to version 1.5.0 or above.",
+	"urls": [
+		"http://seclists.org/oss-sec/2016/q4/203",
+		"https://github.com/deanmalmgren/textract/pull/114"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "d4224ca1-461e-4801-88d1-676efa5cc42e"
+}

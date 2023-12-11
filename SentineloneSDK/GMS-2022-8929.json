@@ -1,0 +1,25 @@
+{
+	"identifiers": [
+		"GHSA-g86j-hwg9-77q5",
+		"GMS-2022-8929"
+	],
+	"identifier": "GMS-2022-8929",
+	"package_slug": "pypi/SentineloneSDK",
+	"title": "SentinelOne impersonated via PyPI packages",
+	"description": "In December 2022, threat actors impersonated SentinelOne by uploading fake software development kits (SDKs) onto PyPI. The SDKs contain fully functional SentinelOne clients, but the packages also contained malicious backdoors that are only executed when called on programmatically, as opposed to during installation. The packages have since been taken down from PyPI.",
+	"date": "2022-12-27",
+	"pubdate": "2022-12-27",
+	"affected_range": "==1.0.0",
+	"affected_versions": "Version 1.0.0",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://pypi.org/project/SentinelOne/",
+		"https://www.reversinglabs.com/blog/sentinelsneak-malicious-pypi-module-poses-as-security-sdk",
+		"https://github.com/advisories/GHSA-g86j-hwg9-77q5"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "9220bce7-f9df-48e2-af32-ff6e0729fb72"
+}

@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2015-23"
+	],
+	"identifier": "GMS-2015-23",
+	"package_slug": "pypi/ipython",
+	"title": "XSS vulnerability",
+	"description": "If you create a new folder in the iPython file browser and set Javascript code as its name the code injected will be executed. So, if I create a folder called \"><img src=x onerror=alert(document.cookie)> and then I access to it, the cookies will be prompted.",
+	"date": "2015-08-18",
+	"pubdate": "2015-08-18",
+	"affected_range": ">=0.12,<3.2.2",
+	"fixed_versions": [
+		"3.2.2"
+	],
+	"affected_versions": "All versions starting from 0.12 before 3.2.2",
+	"not_impacted": "All versions before 0.12, all versions starting from 3.2.2",
+	"credit": "Juan Broullón",
+	"solution": "Upgrade to version 3.2.2 or above.",
+	"urls": [
+		"https://github.com/ipython/ipython/commit/3ab41641cf6fce3860c73d5cf4645aa12e1e5892"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "7e193612-713c-47bc-b383-b67f45aed2ff"
+}
