@@ -4,7 +4,7 @@
 		"GMS-2022-902"
 	],
 	"identifier": "GMS-2022-902",
-	"package_slug": "pypi/nemo_toolkit",
+	"package_slug": "pypi/nemo-toolkit",
 	"title": "Relative Path Traversal",
 	"description": "Relative Path Traversal in nemo_toolkit.",
 	"date": "2022-04-20",
